@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
+body,h1,h2,h3,h4,h5,h6 {font-family: "Segoe UI", sans-serif;}
+
+body, html {
+  height: 100%;
+  color: #f5f5f5;
+  line-height: 1.8;
+  scroll-behavior: smooth;
+  background-color: #2B2B2B;
+}
+
+a:link {
+  color: #f5f5f5;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #f5f5f5;
+  text-decoration: none;
+}
+
+a:active {
+  color: #f5f5f5;
+  text-decoration: none;
+}
+
+i {
+	font-size: 18px;
+	color: #777;
+}
+
+.main {
+	height:100vh;
+	padding-top:30vh;
+}
+
+.centerSearch {
+  display: flex;
+  justify-content: center;
+  background-color: #f8f8f8;
+  border-radius: 50px;
+  transition: 0.1s;
+}
+
+.searchbar {
+	width:98%;
+	font-size: 18px;
+	outline: none;
+	background-color: #f8f8f8;
+}
+	
+.searchicon {
+	font-size:20px;
+	padding-top: 0.4rem !important;
+    padding-right: 0.7rem !important;
+    padding-bottom: 0.4rem !important;
+    padding-left: 1rem !important
+}
+
+.centerSearch:focus-within {
+	box-shadow: 0px 0px 5px 0px gray;
+	-webkit-box-shadow: 0px 0px 5px 0px gray;
+	-moz-box-shadow: 0px 0px 5px 0px gray;
+}
+
+.centerSearch:hover {
+	box-shadow: 0px 0px 5px 0px gray;
+	-webkit-box-shadow: 0px 0px 5px 0px gray;
+	-moz-box-shadow: 0px 0px 5px 0px gray);
+}
+
+.icon {
+	width: 40px;
+	height: auto;
+	transition: 0.2s;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}	
+
+.name:hover .icon{
+	width: 50px;
+	cursor: pointer;
+	filter:drop-shadow(0px 0px 5px gray);
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+	
+p {padding-top: 5px}
+	
+.name {
+	width:100%;
+	max-width: 155px;
+	min-width:80px;
+	text-align: center;
+	padding-right: 0px;
+	display: inline-block;
+	height:100%;
+}
+
+a {
+	height: 100%;
+	width: max-content;
+}
+
+.halign {text-align:center}
+
+   
+ 
+ 
