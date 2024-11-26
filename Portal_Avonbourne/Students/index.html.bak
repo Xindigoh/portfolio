@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="shortcut icon" href="https://www.avonbourneboysacademy.org.uk//Portals/0/favicon.ico?ver=R-HbtQg2e020nMc8CK6Zkg%3d%3d" type="image/x-icon">
+		<script src="https://kit.fontawesome.com/226fa0646d.js" crossorigin="anonymous"></script>
+		<script src="js.js"></script>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<title>New Tab</title>
+	</head>
+	<body style="overflow-x: hidden" class="shapedividers_com-4958">
+	
+	<div class="snowflakes" aria-hidden="true">
+		<div class="snowflake">
+		❅
+		</div>
+		<div class="snowflake">
+		❅
+		</div>
+		<div class="snowflake">
+		❆
+		</div>
+		<div class="snowflake">
+		❄
+		</div>
+		<div class="snowflake">
+		❅
+		</div>
+		<div class="snowflake">
+		❆
+		</div>
+		<div class="snowflake">
+		❄
+		</div>
+		<div class="snowflake">
+		❅
+		</div>
+		<div class="snowflake">
+		❆
+		</div>
+		<div class="snowflake">
+		❄
+		</div>
+	</div>
+	
+		<div class="container main">
+
+			<div class="text-center">
+				<img id="lightImage" style="width: 90%" src="../images/AVB_Logo.png" alt="Avonbourne Boys' and Girls' Academies">
+			</div>
+
+			<form class="border centerSearch my-5 p-2" method="get" action="https://www.ecosia.org/search">
+				<i class="fas fa-search searchicon p-2"></i>
+				<input class="searchbar border-0" name="q" type="text" size="40" />
+			</form>
+			
+			<div class="row text-center my-5">
+				<div class="col-6 col-md-3">
+					<a href="https://portal.office.com/">
+						<div class="name">
+							<img class="icon" src="https://officehome.cdn.office.net/images/content/images/favicon-8f211ea639.ico" alt="Office 365">
+							<p>Office 365</p>
+						</div>
+					</a>
+				</div>
+				<div class="col-6 col-md-3">
+					<a href="https://outlook.office.com/mail/inbox">
+						<div class="name">
+							<img class="icon" src="https://outlook-1.cdn.office.net/owamail/20210802002.06/resources/images/favicons/mail-seen.ico" alt="Outlook">
+							<p>Outlook Mail</p>
+						</div>
+					</a>
+				</div>
+				<div class="col-6 col-md-3">
+					<a href="https://teams.microsoft.com/">
+						<div class="name">
+							<img class="icon" src="https://statics.teams.cdn.office.net/hashed/favicon/prod/favicon-9e2b8f1.ico" alt="Teams">
+							<p>Teams</p>
+						</div>
+					</a>
+				</div>
+				<div class="col-6 col-md-3">
+					<a href="http://avonbourneacademy.org.uk/">
+						<div class="name">
+							<img class="icon" src="../images/AVB_Icon.png" alt="School Website">
+							<p>School Website</p>
+						</div>
+					</a>
+				</div>
+				<div class="col-12 col-sm-6 col-md-6 col-lg-4">
+					<a href="https://app.senecalearning.com/login">
+						<div class="name">
+							<img class="icon" src="data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2aWV3Qm94PSItODI1IDk0OSAzNDggMTAzIj4KICA8c3R5bGU+CiAgICAuc3Qwe2ZpbGw6IzQwODZFQX0KICA8L3N0eWxlPgogIDxzd2l0Y2g+CiAgICA8Zz4KICAgICAgPHBhdGggaWQ9IlBhdGhfMjlfIiBjbGFzcz0ic3QwIiBkPSJNLTcwMS45IDk4MWM0LjMgMCA3LjcgMS42IDEwLjEgNC43bC0zIDIuMWMtMS44LTIuNC00LjItMy43LTcuMi0zLjctMi40IDAtNC40LjYtNS45IDEuOXMtMi4zIDMtMi40IDUuMWMwIDEuOS42IDMuNCAxLjcgNC42IDEuMiAxLjIgMy4yIDIuMiA2IDMgMy44IDEuMSA2LjMgMi4xIDcuNSAzIDEuMy45IDIuMiAxLjkgMi45IDMuMi42IDEuMyAxIDIuOCAxIDQuNyAwIDMtMS4xIDUuNS0zLjIgNy40cy00LjkgMi45LTguMyAzYy01LjMgMC05LjMtMS45LTEyLTUuNmwzLjMtMi4yYzEuOCAzLjEgNC43IDQuNiA4LjUgNC43IDIuNSAwIDQuNS0uNyA2LTIuMXMyLjMtMy4xIDIuMy01LjJjMC0xLjItLjItMi4yLS43LTMtLjQtLjgtMS4xLTEuNS0yLTItLjktLjYtMi0xLjEtMy40LTEuNnMtMy0xLTQuOC0xLjZjLTIuOC0uOS00LjktMi4yLTYuMi0zLjgtMS4zLTEuNi0yLTMuNy0yLTYuMyAwLTMgMS4xLTUuNCAzLjQtNy4zczQuOS0zIDguNC0zeiIvPgogICAgICA8cGF0aCBpZD0iUGF0aF8yOF8iIGNsYXNzPSJzdDAiIGQ9Ik0tNjU2LjMgOTgydjMuMWgtMTkuMnYxMy4yaDE4djMuMWgtMTh2MTQuNGgyMHYzLjFILTY3OVY5ODJ6Ii8+CiAgICAgIDxwYXRoIGlkPSJQYXRoXzI3XyIgY2xhc3M9InN0MCIgZD0iTS02MzkgOTgybDIyLjYgMzIuNGguMVY5ODJoMy41djM3aC00LjRsLTIyLjYtMzIuNGgtLjJ2MzIuNGgtMy41di0zN3oiLz4KICAgICAgPHBhdGggaWQ9IlBhdGhfMjZfIiBjbGFzcz0ic3QwIiBkPSJNLTU3NS42IDk4MnYzLjFoLTE5LjJ2MTMuMmgxOHYzLjFoLTE4djE0LjRoMjB2My4xaC0yMy41Vjk4MmgyMi43eiIvPgogICAgICA8cGF0aCBpZD0iUGF0aF8yNV8iIGNsYXNzPSJzdDAiIGQ9Ik0tNTQ2LjEgOTgxYzUuNSAwIDkuNyAxLjkgMTIuOCA1LjhsLTIuOCAyLjRjLTEtMS42LTIuNC0yLjgtNC4yLTMuNy0xLjctLjktMy43LTEuMy01LjgtMS4zLTQuNiAwLTguNCAxLjUtMTEuMyA0LjYtMi45IDMtNC40IDctNC40IDExLjhzMS41IDguNyA0LjQgMTEuNyA2LjcgNC42IDExLjMgNC42YzIgMCA0LS41IDYuMS0xLjVzMy43LTIuNCA0LjktNC4zbDIuOCAyLjFjLTMuMyA0LjUtNy45IDYuOC0xMy44IDYuOC01LjcgMC0xMC4zLTEuOS0xMy44LTUuNS0zLjUtMy43LTUuMy04LjMtNS40LTEzLjkgMC01LjcgMS44LTEwLjMgNS40LTEzLjlzOC4yLTUuNiAxMy44LTUuN3oiLz4KICAgICAgPHBhdGggY2xhc3M9InN0MCIgZD0iTS01MDYuNiA5ODJoLTMuNWwtMTYuMiAzN2gzLjZsNC4yLTkuOGgxOS42bDQgOS44aDMuOWwtMTUuNi0zN3ptLTEwLjYgMjRsOC42LTIwLjMgOC40IDIwLjNoLTE3eiIvPgogICAgICA8cGF0aCBpZD0iUGF0aF8yMl8iIGNsYXNzPSJzdDAiIGQ9Ik0tNzcxLjggOTkzYy0uNCAwLS44LS40LS45LS45bC0xLjctMjEuNWMtLjUtNS42LjYtOS4zIDIuNi05LjMgMi4xIDAgMy4xIDMuNyAyLjYgOS4zbC0xLjcgMjEuNWMtLjEuNi0uNS45LS45Ljl6Ii8+CiAgICAgIDxwYXRoIGlkPSJQYXRoXzIxXyIgY2xhc3M9InN0MCIgZD0iTS03NzEuOCAxMDA4Yy40IDAgLjguNC45LjlsMS43IDIxLjVjLjUgNS42LS42IDkuMy0yLjYgOS4zLTIuMSAwLTMuMS0zLjctMi42LTkuM2wxLjctMjEuNWMwLS42LjQtLjkuOS0uOXoiLz4KICAgICAgPHBhdGggaWQ9IlBhdGhfMjBfIiBjbGFzcz0ic3QwIiBkPSJNLTc2NC40IDEwMDAuNWMwLS40LjQtLjguOS0uOWwyMS41LTEuN2M1LjYtLjUgOS4zLjYgOS4zIDIuNiAwIDIuMS0zLjcgMy4xLTkuMyAyLjZsLTIxLjUtMS43Yy0uNS0uMS0uOS0uNS0uOS0uOXoiLz4KICAgICAgPHBhdGggaWQ9IlBhdGhfMTlfIiBjbGFzcz0ic3QwIiBkPSJNLTc3OS4zIDEwMDAuNWMwIC40LS40LjgtLjkuOWwtMjEuNSAxLjdjLTUuNi41LTkuMy0uNi05LjMtMi42IDAtMi4xIDMuNy0zLjEgOS4zLTIuNmwyMS41IDEuN2MuNS4xLjkuNS45Ljl6Ii8+CiAgICAgIDxwYXRoIGlkPSJQYXRoXzE4XyIgY2xhc3M9InN0MCIgZD0iTS03NjMuNCA5OTBjLS4zLS4zLS40LS44LS4yLTEuMWw5LjgtMTIuM2MyLjUtMy4yIDUuMi00LjQgNi42LTIuOSAxLjUgMS41LjMgNC4xLTIuOSA2LjZsLTEyLjMgOS44Yy0uMi4zLS43LjItMS0uMXoiLz4KICAgICAgPHBhdGggaWQ9IlBhdGhfMTdfIiBjbGFzcz0ic3QwIiBkPSJNLTc4MS45IDEwMDguNWMuMy4zLjQuOC4yIDEuMWwtOS44IDEyLjNjLTIuNSAzLjItNS4yIDQuNC02LjYgMi45LTEuNS0xLjUtLjMtNC4xIDIuOS02LjZsMTIuMy05LjhjLjItLjMuNy0uMiAxIC4xeiIvPgogICAgICA8cGF0aCBpZD0iUGF0aF8xNl8iIGNsYXNzPSJzdDAiIGQ9Ik0tNzYzLjQgMTAwOC41Yy4zLS4zLjgtLjQgMS4xLS4ybDEyLjMgOS44YzMuMiAyLjUgNC40IDUuMiAyLjkgNi42LTEuNSAxLjUtNC4xLjMtNi42LTIuOWwtOS44LTEyLjNjLS4zLS4yLS4yLS43LjEtMXoiLz4KICAgICAgPHBhdGggaWQ9IlBhdGhfMTVfIiBjbGFzcz0ic3QwIiBkPSJNLTc4MS45IDk5MGMtLjMuMy0uOC40LTEuMS4ybC0xMi4zLTkuOGMtMy4yLTIuNS00LjQtNS4yLTIuOS02LjYgMS41LTEuNSA0LjEtLjMgNi42IDIuOWw5LjggMTIuM2MuMy4yLjIuNy0uMSAxeiIvPgogICAgPC9nPgogIDwvc3dpdGNoPgo8L3N2Zz4=" alt="Seneca">
+						</div>
+					</a>
+				</div>
+				<div class="col-12 col-sm-6 col-md-6 col-lg-4">
+					<a href="https://hegartymaths.com/login/teacher">
+						<div class="name">
+							<img class="icon" src="https://hegartymaths.com/img/new/logo.png" alt="Seneca">
+						</div>
+					</a>
+				</div>
+				<div class="col-12 col-sm-6 col-md-6 col-lg-4">
+					<a href="https://www.sparxmaths.uk/student">
+						<div class="name">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 714.14 117.69" class="icon"><defs><style>.logo_svg__cls-1{fill:#16224e}</style></defs><g id="logo_svg__Layer_2" data-name="Layer 2"><g id="logo_svg__main_content" data-name="main content"><path class="logo_svg__cls-1" d="M54.93 45.89a50.64 50.64 0 00-11.62-5.18Q37 38.79 31.68 37a42.12 42.12 0 01-8.88-4 7.07 7.07 0 01-3.55-6.36q0-3.86 3.7-7.11t10.36-3.26q6.66 0 10.37 3.56t3.7 9.77h17a30.65 30.65 0 00-2.22-11.77 27.35 27.35 0 00-6.36-9.4A29.36 29.36 0 0046 2.22 34.62 34.62 0 0033.31 0a38.76 38.76 0 00-13.54 2.22A33.19 33.19 0 009.55 8.07 25.34 25.34 0 003 16.58 23.75 23.75 0 00.74 26.79q0 8.15 3.56 13.11a28.46 28.46 0 008.88 8.1 49.17 49.17 0 0011.62 4.85q6.28 1.77 11.62 3.63a38.73 38.73 0 018.88 4.22 7.56 7.56 0 013.56 6.66A10 10 0 0145 75.13q-3.85 3.33-11.7 3.33-7.25 0-11.4-3.92a13.36 13.36 0 01-4.13-10.14H0a31.65 31.65 0 002.3 12.21 27.53 27.53 0 006.59 9.62 29.44 29.44 0 0010.43 6.29 40.78 40.78 0 0014 2.23 40.57 40.57 0 0014-2.3A34.7 34.7 0 0058 86.38a28 28 0 006.88-8.51 21.07 21.07 0 002.44-9.77q0-8.44-3.55-13.7a28.71 28.71 0 00-8.84-8.51zM133.76 35a31.19 31.19 0 00-10.14-7.25 29.3 29.3 0 00-12.14-2.59 25.24 25.24 0 00-8 1.18 40.22 40.22 0 00-6.07 2.52 25.62 25.62 0 00-5.18 3.7v-6.63H76.69v91.81h17V88.08a23.9 23.9 0 004.74 3.41 40.51 40.51 0 005.57 2.22 24.21 24.21 0 007.48 1 29.31 29.31 0 0012.14-2.6 31.19 31.19 0 0010.14-7.25 35.59 35.59 0 007-11A36.68 36.68 0 00143.31 60a36.69 36.69 0 00-2.59-14 35.7 35.7 0 00-6.96-11zM121.4 73.43a17.17 17.17 0 01-24.28 0q-4.89-5-4.89-13.47t4.89-13.48a17.17 17.17 0 0124.28 0q4.88 5 4.88 13.48t-4.88 13.47zM198.67 25.93v6.63a32.81 32.81 0 00-5.18-3.7 40.22 40.22 0 00-6.07-2.52 25.17 25.17 0 00-8-1.18 29.26 29.26 0 00-12.14 2.59A31.19 31.19 0 00157.15 35a35.34 35.34 0 00-7 11 36.5 36.5 0 00-2.55 14 36.49 36.49 0 002.59 13.91 35.22 35.22 0 007 11 31.19 31.19 0 0010.14 7.25 29.27 29.27 0 0012.14 2.6 26.74 26.74 0 008-1.11 29.51 29.51 0 006.07-2.6 32.18 32.18 0 005.18-3.7V94h15.55V25.91zm-4.88 47.5a17.17 17.17 0 01-24.28 0q-4.89-5-4.89-13.47t4.89-13.48a17.17 17.17 0 0124.28 0q4.88 5 4.88 13.48t-4.88 13.47zM260 25.31a13.84 13.84 0 00-2.07-.14 18 18 0 00-6.93 1.25 21.88 21.88 0 00-5.1 2.89 21.15 21.15 0 00-4.3 4v-7.38h-15.54V94h17V57.73q0-6.66 3.93-10.73a13.45 13.45 0 0110.14-4.07 18.26 18.26 0 012.44.15c.74.1 1.36.2 1.85.29l1.63.3V25.91l-1.48-.3zM329.24 25.91h-18.5l-13.33 21.46-13.32-21.46h-18.5l21.46 33.31-22.94 34.79h18.5l14.8-22.95 14.81 22.95h18.5l-22.94-34.79 21.46-33.31zM410.96 69.58L379.13.74h-15.54v93.27h17.76V42.19l23.69 51.82h11.84l23.69-51.82v51.82h17.76V.74h-15.54l-31.83 68.84zM566.25 9.62h-14.8v16.31h-12.58v15.52h10.36v28.87a28.13 28.13 0 001.7 10.07 23.25 23.25 0 004.74 7.69 19.84 19.84 0 007.25 5 24.46 24.46 0 009.26 1.71A20.66 20.66 0 00578 94a14.11 14.11 0 002.37-.74v-14.8a5.78 5.78 0 01-1.19.45 10.84 10.84 0 01-1.33.22c-.49.05-1.13.07-1.92.07a8.94 8.94 0 01-9.63-9.62V41.45h14.81V25.91h-14.86zM646.19 32.94a22.68 22.68 0 00-8.19-5.78 26.61 26.61 0 00-10.29-2 28 28 0 00-8.71 1.19 33.65 33.65 0 00-6 2.52 21.75 21.75 0 00-4.59 3.7V.74h-17V94h17V56.25q0-6.66 3.93-10.73a14.67 14.67 0 0120.28 0q3.92 4.08 3.92 10.73V94h17V54a34 34 0 00-2-12 28.12 28.12 0 00-5.35-9.06zM711.55 64.17a21.19 21.19 0 00-6.44-6.17 32.43 32.43 0 00-8.36-3.63q-4.51-1.24-8.37-2.36a36.21 36.21 0 01-6.44-2.45 4.09 4.09 0 01-2.59-3.7 6.15 6.15 0 012.15-4.74 8.68 8.68 0 016-1.92 9.57 9.57 0 016.44 2.22 9.37 9.37 0 013.18 4.44h16.28a23.47 23.47 0 00-7.77-14.8q-6.58-5.93-18.87-5.92a27.83 27.83 0 00-10.07 1.7 25.75 25.75 0 00-7.7 4.51 19 19 0 00-6.66 14.51q0 5.93 2.59 9.55a21.07 21.07 0 006.44 5.92 32.23 32.23 0 008.36 3.48q4.51 1.18 8.37 2.3a36.25 36.25 0 016.44 2.44 4.09 4.09 0 012.59 3.7 6.76 6.76 0 01-2.59 5.11 11.89 11.89 0 01-14.14-.08 9.76 9.76 0 01-3.26-5.77h-16.28q1 10.06 7.92 16.14t20.23 6.1A30.06 30.06 0 00699.41 93a25.16 25.16 0 007.92-4.51 19.87 19.87 0 005-6.59 18.46 18.46 0 001.81-7.9q0-6.06-2.59-9.83zM518 25.93v6.63a32.35 32.35 0 00-5.18-3.7 40.22 40.22 0 00-6.07-2.52 25.17 25.17 0 00-8-1.18 29.26 29.26 0 00-12.14 2.59A31.19 31.19 0 00476.47 35a35.7 35.7 0 00-7 11 36.5 36.5 0 00-2.55 14 36.49 36.49 0 002.59 13.91 35.59 35.59 0 007 11 31.19 31.19 0 0010.14 7.25 29.27 29.27 0 0012.14 2.6 26.74 26.74 0 008-1.11 29.51 29.51 0 006.07-2.6 31.74 31.74 0 005.18-3.7V94h15.55V25.91zm-4.88 47.5a17.17 17.17 0 01-24.28 0q-4.89-5-4.89-13.47t4.89-13.48a17.17 17.17 0 0124.28 0Q518 51.52 518 60t-4.89 13.43z"></path></g></g></svg>
+						</div>
+					</a>
+				</div>
+				<div class="col-12 col-sm-6 col-md-6 col-lg-4">
+					<a href="https://theeverlearner.com/">
+						<div class="name">
+							<img class="icon" src="https://theeverlearner.com/assets/img/logo.svg" alt="The EverLearner">
+						</div>
+					</a>
+				</div>
+				<div class="col-12 col-sm-6 col-md-6 col-lg-4">
+					<a href="https://app.bedrocklearning.org/">
+						<div class="name">
+							<img class="icon" src="https://sp-ao.shortpixel.ai/client/to_webp,q_lossless,ret_img/https://www.besa.org.uk/wp-content/uploads/2019/02/Bedrock-Learning.png" alt="Bedrock Learning">
+						</div>
+					</a>
+				</div>
+				<div class="col-12 col-sm-6 col-md-6 col-lg-4">
+					<a href="https://sparxreader.com">
+						<div class="name">
+							<img class="icon" src="../Images/sparxreader.svg" alt="Sparx Reader">
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
