@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
 
-body,h1,h2,h3,h4,h5,h6 {font-family: "Segoe UI", sans-serif;}
+body,h1,h2,h3,h4,h5,h6 {font-family: "Noto Sans JP", sans-serif;}
 
 body, html {
   height: 100%;
@@ -8,6 +8,11 @@ body, html {
   line-height: 1.8;
   scroll-behavior: smooth;
   background-color: #2B2B2B;
+  background-image: url("./Images/ytbannernoxin.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 a:link {
@@ -105,6 +110,11 @@ a {
 
 .halign {text-align:center}
 
-   
+.xinWave {
+	width:100%;
+	position: absolute;
+	margin-top: -5vw;
+	z-index: 0;
+}
  
  
