@@ -28,3 +28,21 @@ body, html{
 .hero {
 	letter-spacing: 5px;
 }
+
+@keyframes typer {
+	0%		{opacity: 0;}
+	75%		{opacity:100;}
+	100%	{opacity: 0;}
+}
+
+#typer {
+	animation-name: typer;
+	animation-duration: 0.5s;
+	animation-iteration-count: infinite;
+	animation-delay: 1.3s;
+}
+
+.cursor {
+	vertical-align: middle;
+	padding-bottom:5px;
+}
