@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+
+body,h1,h2,h3,h4,h5,h6 {font-family: "Syne Mono", sans-serif;}
+
+body, html{
+	height:100%;
+	color: #f2f2f2;
+	background-color: #333333;
+	background-image: url("./images/ytbannernoxin.png");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.wh100 {
+	height:100%;
+	width:100%;
+}
+
+.xin-middle {
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero {
+	letter-spacing: 5px;
+}
