@@ -46,3 +46,58 @@ body, html{
 	vertical-align: middle;
 	padding-bottom:5px;
 }
+
+.matt-menu-tab {
+	width: 50px;
+	height: auto;
+	background-color: #333333;
+	margin-top: 15px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+.sidenav {
+	height: 500px; /* 100% Full-height */
+	width: 0; /* 0 width - change this with JavaScript */
+	position: fixed; /* Stay in place */
+	z-index: 2; /* Stay on top */
+	top: 15px; /* Stay at the top */
+	left: 0;
+	background-color: #333333;
+	overflow-x: hidden; /* Disable horizontal scroll */
+	padding-top: 60px; /* Place content 60px from the top */
+	transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+	display: block;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+/* The navigation menu links */
+.sidenav a {
+	padding: 8px 8px 8px 32px;
+	text-decoration: none;
+	font-size: 25px;
+	color: #f2f2f2;
+	display: block;
+	transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #dfdfdf;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}

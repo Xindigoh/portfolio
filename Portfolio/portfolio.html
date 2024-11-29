@@ -9,14 +9,21 @@
 	<link rel="stylesheet" type="text/css" href="..\fontawesome\css\solid.css">
 	<link rel="stylesheet" type="text/css" href="..\fontawesome\css\regular.css">
 	<link rel="shortcut icon" href="https://avatars.githubusercontent.com/u/37428361?v=4" type="image/x-icon">
+	<script src="javas.js"></script>
     <title>Matthew Crane</title>
   </head>
   <body>  
-  
-	<div class="p-3 position-fixed">
-		<div class="ps-1">
-			<span class="navbar-brand fw-bold" href="#">M</span>
-		</div>
+	
+	<div id="mySidenav" class="sidenav" style="z-index: 2000;">
+		<a aria-label="Open the navigation menu" href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		<a aria-label="Go to the Homepage" href="index.html">Home</a>
+		<a aria-label="Go to the Gallery page" href="gallery.html">Gallery</a>
+		<a aria-label="Go to the Pricing page" href="pricing.html">Pricing</a>
+		<a aria-label="Go to the Contact page" href="contact.html">Contact</a>
+	</div>
+	
+	<div onclick="openNav()" class="p-3 position-fixed matt-menu-tab">
+		<span class="navbar-brand fw-bold fa-solid fa-bars" href="#"></span>
 	</div>
   
   
@@ -29,19 +36,7 @@
 		</div>
 	</div>
 	<script>
-		var i = 0;
-		var txt = 'Matthew Crane';
-		var speed = 80;
-
-		function typeWriter() {
-		  if (i < txt.length) {
-			document.getElementById("maintitle").innerHTML += txt.charAt(i);
-			i++;
-			setTimeout(typeWriter, speed);
-		  }
-		}
-		
-		typeWriter();
+	
 	</script>
 	<div class="bg-black p-5">
 		<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
