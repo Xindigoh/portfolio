@@ -20,13 +20,3 @@ function openNav() {
   function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
   }
-
-window.onscroll = function() {minNavbar()};
-  function minNavbar() {
-    var navbar = document.getElementById("topNav");
-      if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-          navbar.className = "d-none " + "d-sm-none " + "d-xs-none " + "d-md-flex " + "min-navbar " + "sticky-top " + "position-fixed " + "w100";
-    } else {
-        navbar.className = navbar.className.replace("min-navbar", "");
-    }
-}
