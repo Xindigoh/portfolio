@@ -57,20 +57,6 @@ body, html{
 	padding: 16.5px
 }
 
-@media screen and (max-width: 768px) {
-	.bars {
-		margin-top:15px;
-		width: 100px;
-		height:100px;
-		background-color: #333333;
-		border-top-right-radius: 15px;
-		border-bottom-right-radius: 15px;
-		padding: 36.5px;
-		font-size: 25px
-	}
-	.sidenav {height: 200px;}
-}
-
 .sidenav {
 	height: 500px; /* 100% Full-height */
 	width: 0; /* 0 width - change this with JavaScript */
@@ -115,4 +101,21 @@ body, html{
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
+}
+
+@media screen and (max-width: 768px) {
+	.bars {
+		margin-top:15px;
+		width: 100px;
+		height:100px;
+		background-color: #333333;
+		border-top-right-radius: 15px;
+		border-bottom-right-radius: 15px;
+		padding: 36.5px;
+		font-size: 25px
+	}
+	.sidenav {
+		height: auto;
+		padding-bottom:20px;
+		}
 }
