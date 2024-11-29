@@ -58,7 +58,7 @@ body, html{
 }
 
 .sidenav {
-	height: 500px; /* 100% Full-height */
+	height: auto;
 	width: 0; /* 0 width - change this with JavaScript */
 	position: fixed; /* Stay in place */
 	z-index: 2; /* Stay on top */
@@ -67,6 +67,7 @@ body, html{
 	background-color: #333333;
 	overflow-x: hidden; /* Disable horizontal scroll */
 	padding-top: 60px; /* Place content 60px from the top */
+	padding-bottom:50px;
 	transition: 0.2s; /* 0.5 second transition effect to slide in the sidenav */
 	display: block;
 	border-top-right-radius: 10px;
@@ -80,12 +81,14 @@ body, html{
 	font-size: 25px;
 	color: #f2f2f2;
 	display: block;
-	transition: 0.3s;
+	transition: 0.7s;
 }
 
 /* When you mouse over the navigation links, change their color */
 .sidenav a:hover {
-  color: #dfdfdf;
+  background: linear-gradient(90deg, rgba(131,58,180,1), rgba(252,201,69,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 /* Position and style the close button (top right corner) */
@@ -114,8 +117,4 @@ body, html{
 		padding: 22.5px;
 		font-size: 25px
 	}
-	.sidenav {
-		height: auto;
-		padding-bottom:20px;
-		}
 }
