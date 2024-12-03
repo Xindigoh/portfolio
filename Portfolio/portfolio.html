@@ -19,17 +19,22 @@
 	<script src="javas.js"></script>
     <title>Matthew Crane</title>
   </head>
-  <body>  
-	
+  <body>
 	<div id="mySidenav" class="sidenav" style="z-index: 2;">
-		<a aria-label="Open the navigation menu" href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-		<a aria-label="Go to the Homepage" href="index.html">Home</a>
-		<a aria-label="Go to the Gallery page" href="gallery.html">CV</a>
-		<a aria-label="Go to the Pricing page" href="pricing.html">Portfolio</a>
-		<a aria-label="Go to the Contact page" href="contact.html">Contact</a>
+		<div class="navbg sidenavclosebtn">
+			<a aria-label="Open the navigation menu" href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		</div>
+		<div class="navbg pb-5" style="width: 190px; border-bottom-right-radius: 15px;">
+			<div>
+				<a aria-label="Go to the Homepage" href="index.html">Home</a>
+				<a aria-label="Go to the Gallery page" href="gallery.html">CV</a>
+				<a aria-label="Go to the Pricing page" href="pricing.html">Portfolio</a>
+				<a aria-label="Go to the Contact page" href="contact.html">Contact</a>
+			</div>
+		</div>
 	</div>
 	
-	<div onclick="openNav()" class="position-fixed fw-bold fa-solid fa-bars bars"></div>
+	<div id="menubutton" onclick="openNav()" class="position-fixed fw-bold fa-solid fa-bars bars"></div>
   
 	<div class="w-100 h-100">
 		<div class="d-flex align-items-center h-100">
