@@ -118,3 +118,11 @@ body, html{
 	.sidenav {padding-top: 15px;}
 	.sidenav a {font-size: 18px;}
 }
+
+.shapedivider {
+	background-image: url("./images/layered-waves-haikei.svg")
+}
+ 
+.contents {
+	background-color:#333333;
+}
