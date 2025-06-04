@@ -19,7 +19,7 @@ body, html{
 }
 
 /* Side Navigation Menu Styling and Animation */
-.menuButton {
+/* .menuButton {
 	background-color: #333333;
 	position: fixed;
 	width:50px;
@@ -33,7 +33,7 @@ body, html{
 .menuButton:hover{
 	width:52px;
 	filter: drop-shadow(0px 0px 8px #0d0d0d);
-}
+} */
 .bars {
 	text-align:right;
 	width:100%;
@@ -41,10 +41,10 @@ body, html{
 	padding-right: 24px;
 	padding-top:18px;
 }
-.menu {
+#menu {
 	position: fixed;
 	margin-top: 80px;
-	/* margin-left:-205px; */
+	margin-left:-205px;
 }
 #menuTopBar {
 	width:265px;

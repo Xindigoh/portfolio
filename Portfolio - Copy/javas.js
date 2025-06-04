@@ -12,6 +12,6 @@ function typeWriter() {
 		
 	setTimeout(typeWriter, 350);
 
-function test() {
-	document.getElementById("test").style.width = "200px"
+function openNav() {
+	document.getElementById("menu").style.marginLeft = "0px"
 }
