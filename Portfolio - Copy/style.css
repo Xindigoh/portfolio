@@ -18,113 +18,61 @@ body, html{
 	width:100%;
 }
 
-.xin-middle {
-	position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+/* Side Navigation Menu Styling and Animation */
+.menuButton {
+	background-color: #333333;
+	position: fixed;
+	width:50px;
+	height:50px;
+	margin-top:80px;
+	border-bottom-right-radius: 10px;
+	border-top-right-radius: 10px;
+	transition: 0.2s;
+	cursor: pointer;
+}
+.menuButton:hover{
+	width:52px;
+	filter: drop-shadow(0px 0px 8px #0d0d0d);
+}
+.bars {
+	text-align:center;
+	width:100%;
+	height:100%;
+	margin-left:-2px;
+	padding-top:14.5px;
 }
 
+ /* Hero Styling - Typer and Cursor */
 .hero {
 	letter-spacing: 5px;
+	text-align: center !important;
+	width: 100% !important;
 }
-
 @keyframes typer {
 	0%		{opacity: 0;}
 	75%		{opacity:100;}
 	100%	{opacity: 0;}
 }
-
 #typer {
 	animation-name: typer;
 	animation-duration: 0.5s;
 	animation-iteration-count: infinite;
 	animation-delay: 1.3s;
+	margin-left:-18px;
+	display: inline;
+	font-size: 2rem;
+	color: rgba(255, 255, 255, .5);
 }
-
 .cursor {
 	vertical-align: middle;
 	padding-bottom:5px;
-}
-
-.bars {
-	margin-top:35px;
-	width: 70px;
-	height:70px;
-	background-color: #333333;
-	border-top-right-radius: 15px;
-	border-bottom-right-radius: 15px;
-	padding: 22.5px;
-	font-size: 25px;
-	transition: 0.2s;
-	cursor: pointer;
-}
-
-.bars:hover {
-	font-size: 26px;
-}
-
-.sidenav {
-	height: auto;
-	width: 0px; /* 0 width - change this with JavaScript */
-	position: fixed; /* Stay in place */
-	z-index: 2; /* Stay on top */
-	top: 35px; /* Stay at the top */
-	left: 0;
-	overflow-x: hidden; /* Disable horizontal scroll */
-	display: block;
-	border-top-right-radius: 10px;
-	border-bottom-right-radius: 10px;
-}
-
-.navbg {
-	background-color: #333333;
-	}
-
-/* The navigation menu links */
-.sidenav a {
-	padding: 8px 8px 8px 32px;
-	text-decoration: none;
-	font-size: 25px;
-	color: #f2f2f2;
-	display: block;
-	transition: 0.3s;
-}
-
-/* When you mouse over the navigation links, change their color */
-.sidenav a:hover {
-	transform: rotate(1deg);
-	transform-origin: right;
-	background: linear-gradient(90deg, rgba(131,58,180,1), rgba(252,201,69,1) 100%);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-}
-
-.sidenavclosebtn {
-	border-top-right-radius: 15px;
-	border-bottom-right-radius: 15px;
+	--bs-text-opacity: 1;
+    color: rgba(255, 255, 255, .5);
+	font-size: 1.25rem;
+    display: inline;
 }
 
 
-/* Position and style the close button (top right corner) */
-.sidenav .closebtn {
-	margin-left:185px;
-	font-size: 36px;
-}
-
-#navclosebar {transition: 0.3s;width: 0px; transition-timing-function: linear;}
-#navitems {transition: 0.15s;width: 0px; transition-timing-function: linear;}
-
-/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-@media screen and (max-height: 450px) {
-	.sidenav {padding-top: 15px;}
-	.sidenav a {font-size: 18px;}
-}
-
-.shapedivider {
-	background-image: url("./images/layered-waves-haikei.svg")
-}
- 
 .contents {
 	background-color:#333333;
 }
