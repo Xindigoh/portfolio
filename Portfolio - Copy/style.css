@@ -35,11 +35,29 @@ body, html{
 	filter: drop-shadow(0px 0px 8px #0d0d0d);
 }
 .bars {
-	text-align:center;
+	text-align:right;
 	width:100%;
 	height:100%;
-	margin-left:-2px;
-	padding-top:14.5px;
+	padding-right: 24px;
+	padding-top:18px;
+}
+.menu {
+	position: fixed;
+	margin-top: 80px;
+	/* margin-left:-205px; */
+}
+#menuTopBar {
+	width:265px;
+	height:60px;
+	background-color: #333333;
+	border-bottom-right-radius: 10px;
+	border-top-right-radius: 10px;
+}
+#menuLinks {
+	width:205px;
+	height:250px;
+	background-color: #333333;
+	border-bottom-right-radius: 10px;
 }
 
  /* Hero Styling - Typer and Cursor */
