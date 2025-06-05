@@ -4,7 +4,7 @@ var speed = 80;
 
 function typeWriter() {
 	if (i < txt.length) {
-		document.getElementById("maintitle").innerHTML += txt.charAt(i);
+		document.getElementById("mainTitle").innerHTML += txt.charAt(i);
 		i++;
 		setTimeout(typeWriter, speed);
 		}
@@ -13,22 +13,13 @@ function typeWriter() {
 	setTimeout(typeWriter, 350);
 
 function openNav() {
-    document.getElementById("mySidenav").style.width = "265px";
-	document.getElementById("navitems").style.width = "200px";
-	document.getElementById("navclosebar").style.width = "265px";
-	document.getElementById("menubutton").style.width = "265px";
-	document.getElementById("menubutton").style.textAlign = "right";
-	document.getElementById("menubutton").style.color = "#333333";
-	document.getElementById("mySidenav").style.transition = "0s"
-  }
-  
-  /* Set the width of the side navigation to 0 */
-  function closeNav() {
-    document.getElementById("mySidenav").style.width = "0px";
-	document.getElementById("navitems").style.width = "0px";
-	document.getElementById("navclosebar").style.width = "0px";
-	document.getElementById("menubutton").style.width = "70px";
-	document.getElementById("menubutton").style.textAlign = "left";
-	document.getElementById("menubutton").style.color = "#f2f2f2";
-	document.getElementById("mySidenav").style.transition = "0.2s"
-  }
+	document.getElementById("menu").style.marginLeft = "0px"
+	document.getElementById("close").style.display = "block"
+	document.getElementById("bars").style.display = "none"
+}
+
+function closeNav() {
+	document.getElementById("menu").style.marginLeft = "-205px"
+	document.getElementById("bars").style.display = "block"
+	document.getElementById("close").style.display = "none"
+}
