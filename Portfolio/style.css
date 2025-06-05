@@ -49,6 +49,10 @@ body, html{
 	border-bottom-right-radius: 10px;
 	border-top-right-radius: 10px;
 	cursor: pointer;
+	transition: 0.2s;
+}
+#menuTopBar:hover {
+	width: 267px;
 }
 #menuLinks {
 	width:205px;
@@ -103,6 +107,6 @@ body, html{
 }
 
 
-.contents {
+.content {
 	background-color:#333333;
 }
