@@ -17,7 +17,9 @@ body, html{
 	height:100%;
 	width:100%;
 }
-
+p {
+	font-size: 1.5rem
+}
 /* Side Navigation Menu Styling and Animation */
 #bars{
 	text-align:right;
@@ -75,7 +77,6 @@ body, html{
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
-
  /* Hero Styling - Typer and Cursor */
 .hero {
 	letter-spacing: 5px;
@@ -105,7 +106,15 @@ body, html{
 	font-size: 1.25rem;
     display: inline;
 }
+/*//*/
 
+.profile {
+	border-radius: 100%;
+	width:100%;
+	height: auto;
+	border: 20px solid #333333;
+	margin-top: -150px;
+}
 
 .content {
 	background-color:#333333;
