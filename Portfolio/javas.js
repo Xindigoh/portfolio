@@ -16,10 +16,12 @@ function openNav() {
 	document.getElementById("menu").style.marginLeft = "0px"
 	document.getElementById("close").style.display = "block"
 	document.getElementById("bars").style.display = "none"
+	document.getElementById("fullcloser").style.display = "block"
 }
 
 function closeNav() {
 	document.getElementById("menu").style.marginLeft = "-205px"
 	document.getElementById("bars").style.display = "block"
 	document.getElementById("close").style.display = "none"
+	document.getElementById("fullcloser").style.display = "none"
 }

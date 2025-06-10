@@ -77,6 +77,12 @@ p {
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
+#fullcloser {
+	width:100%;
+	height:100%;
+	position:fixed;
+	display: none;
+}
  /* Hero Styling - Typer and Cursor */
 .hero {
 	letter-spacing: 5px;
