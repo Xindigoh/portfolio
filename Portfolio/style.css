@@ -13,6 +13,10 @@ body, html{
 	background-size: cover;
 }
 
+p {
+	font-size:1em;
+}
+
 .wh100 {
 	height:100%;
 	width:100%;
