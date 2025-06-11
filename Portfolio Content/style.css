@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
+body,h1,h2,h3,h4,h5,h6 {font-family: "Noto Sans JP", sans-serif;}
+
+body, html {
+  height: 100%;
+  color: #bebebe;
+  line-height: 1.8;
+  background-color: #333333;
+  background-image: url("https://xindigoh.github.io/portfolio/Xindigoh/Xindigoh%20New%20Tab/Images/ytbannernoxin.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+a {
+	height: 100%;
+	width: max-content;
+}
+
+a:link {
+  color: #bebebe;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #bebebe;
+  text-decoration: none;
+}
+
+a:active {
+  color: #bebebe;
+  text-decoration: none;
+}
+
+i {font-size: 52px}
+
+.main {padding-top:24vh; width: 60%}
+
+@media (max-width:1920px){
+	.main {padding-top: 12vh;}
+}
+
+@media (max-width:576px){
+	.main {width:90%}
+}
+
+.icon {
+	width: auto;
+	max-width: 170px;
+	height: 40px;
+	transition: 0.2s;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	object-fit: contain;
+}	
+		
+.name {
+	text-align: center;
+	padding-right: 0px;
+	display: inline-block;
+	height:100%;
+}
+
+.name:hover .icon{
+	height: 50px;
+	max-width: 190px;
+	cursor: pointer;
+	filter:drop-shadow(0px 0px 5px gray);
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+p {padding-top: 5px}
