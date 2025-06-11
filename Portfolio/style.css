@@ -125,26 +125,42 @@ p {
 	border: 20px solid #333333;
 	margin-top: -150px;
 }
+.hellocontent {
+	text-align: justify;
+	font-size:30px;
+}
 
-@media screen and (max-width: 1200px) {
-  .profile {
-	  margin-top: -120px;
-	  border: 15px solid #333333;
-	  }
+@media (max-width: 1199.98px) {
+	.profile {
+		margin-top: -120px;
+		border: 15px solid #333333;
+		}
+	.hellocontent {
+		text-align: justify;
+		font-size:24px;
+	}
 }
-@media screen and (max-width: 991px) {
-  .profile {
-	  margin-top: -95px;
-	  border: 15px solid #333333;
-	  width:100%
-	  }
+@media (max-width: 991.98px) {
+    .profile {
+		margin-top: -95px;
+		border: 15px solid #333333;
+		width:100%
+		}
+	.hellocontent {
+		text-align: justify;
+		font-size:20px;
+	}
 }
-@media screen and (max-width: 768px) {
-  .profile {
-	  margin-top: -110px;
-	  border: 15px solid #333333;
-	  width:60%
-	  }
+@media (max-width: 767.98px) {
+	.profile {
+		margin-top: -110px;
+		border: 15px solid #333333;
+		width:60%
+		}
+	.hellocontent {
+		text-align: justify;
+		font-size:24px;
+	}
 }
 
 .content {
