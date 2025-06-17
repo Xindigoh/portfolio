@@ -53,11 +53,11 @@ i {
 	font-size: 18px;
 	outline: none;
 	background-color: #f8f8f8;
+	color:#333333;
 }
 	
 .searchicon {
 	font-size:20px;
-	padding-top: 0.4rem !important;
     padding-right: 0.7rem !important;
     padding-bottom: 0.4rem !important;
     padding-left: 1rem !important
@@ -115,4 +115,26 @@ a {
 	position: absolute;
 	margin-top: -5vw;
 	z-index: 0;
+}
+
+.glasscontainer{
+	background: rgba(255, 255, 255, 0.15);
+	border-radius: 16px;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(5px);
+	-webkit-backdrop-filter: blur(5px);
+	display:inline;
+	padding-left:15px;
+	padding-right:15px;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+.noselect {
+  -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
 }
